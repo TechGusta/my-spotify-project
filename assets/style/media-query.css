@@ -1,0 +1,405 @@
+/* HORIZONTAL */
+
+@media screen and (max-width: 480px) {
+
+    .sidebar{
+        position: fixed;
+        width: auto;
+        height: auto;
+        left: 8px;
+        right: 8px;
+        top: 8px;
+    }
+
+
+    .main-content{
+        position: fixed;
+        width: auto;
+        height: auto;
+        left: 8px;
+        bottom: 82px;
+        top: 170px;
+        
+    }
+
+    .library{
+        position: relative;
+        display: none;
+    }
+
+    .playlist__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        align-self: center;
+        overflow-y: auto;
+        height: 39.8vh;    
+
+    }
+
+    #result-playlists{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header{
+     padding: 16px 12px;
+    }
+
+    .header__search{
+        padding: 0 10px 0 0;
+    }
+
+    .header__input{
+        display: none;
+    }
+
+    .subscribe{
+        display: none;
+    }
+
+    .premium-span__text .title{
+        font-size: 12px;
+    }
+
+    .premium-span__text .subtitle{
+        font-size: 10px;
+    }
+
+    .premium-span__content button{
+        padding: 8px 20px;
+        font-size: 12px;
+        margin-left: 5px
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 579px){
+    
+    .sidebar{
+        position: fixed;
+        width: auto;
+        height: auto;
+        left: 8px;
+        right: 8px;
+        top: 8px;
+    }
+
+
+    .main-content{
+        position: fixed;
+        width: auto;
+        height: auto;
+        left: 8px;
+        bottom: 82px;
+        top: 170px;
+        
+    }
+
+    .library{
+        position: relative;
+        display: none;
+    }
+
+    .playlist__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        align-self: center;
+        overflow-y: auto;
+        height: 39.8vh;    
+
+    }
+
+    #result-playlists{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .header{
+     padding: 16px 12px;
+    }
+
+    .header__search{
+        padding: 0 10px 0 0;
+    }
+
+    .header__input{
+        display: none;
+    }
+
+    .subscribe{
+        display: none;
+    }
+
+    .premium-span__text .title{
+        font-size: 12px;
+    }
+
+    .premium-span__text .subtitle{
+        font-size: 10px;
+    }
+
+    .premium-span__content button{
+        padding: 8px 20px;
+        font-size: 12px;
+        margin-left: 5px
+    }
+
+
+}
+
+@media screen and (min-width: 580px) and (max-width: 850px){
+    
+    .sidebar{
+        
+        width: auto;
+        height: auto;
+    }
+
+    .main-content{
+        position: fixed;
+        right: 8px;
+        top: 8px;
+        bottom: 82px;
+        left: 46vw;
+        width: auto;
+        height: auto;
+    }
+
+    .library{
+        position: fixed;
+        right: 55vw;
+        left: 8px;
+        top: 21vh;
+        bottom: 82px;
+        height: auto;
+        width: auto;
+    }
+
+    .sidebar__navigation{
+        position: fixed;
+        left: 8px;
+        right: 55vw;
+        top: 8px;
+        bottom: 79vh;
+        height: auto;
+        width: auto;
+    }
+
+    .playlist__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        overflow-y:auto;
+        height: 67vh;
+            
+    }
+
+    .playlist__header{
+        display: flex;
+        align-self: flex-start;
+    }
+
+    #result-playlists{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        align-items: center;
+    }
+
+    .header__input{
+        display: none;
+    }
+
+    .subscribe{
+        display: none;
+    }
+
+    .premium-span__content button{
+        padding: 5px 32px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 850px) and (max-width: 1150px) {
+    .sidebar{
+        
+        width: auto;
+        height: auto;
+    }
+
+    .main-content{
+        position: fixed;
+        right: 8px;
+        top: 8px;
+        bottom: 82px;
+        left: 46vw;
+        width: auto;
+        height: auto;
+    }
+
+    .library{
+        position: fixed;
+        right: 55vw;
+        left: 8px;
+        top: 21vh;
+        bottom: 82px;
+        height: auto;
+        width: auto;
+    }
+
+    .sidebar__navigation{
+        position: fixed;
+        left: 8px;
+        right: 55vw;
+        top: 8px;
+        bottom: 79vh;
+        height: auto;
+        width: auto;
+    }
+
+    .playlist__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        overflow-y:auto;
+        height: 67vh;    
+    }
+
+    .header__input{
+        display: none;
+    }
+
+    .subscribe{
+        display: none;
+    }
+
+    .premium-span__content button{
+        padding: 5px 32px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1500px) {
+    .sidebar{
+        
+        max-width: 361px;
+        height: auto;
+    }
+
+    .main-content{
+        position: fixed;
+        right: 8px;
+        top: 8px;
+        bottom: 82px;
+        left: 377px;
+        width: auto;
+        height: auto;
+    }
+
+    .library{
+        position: fixed;
+        right: 55vw;
+        left: 8px;
+        top: 21vh;
+        bottom: 82px;
+        height: auto;
+        max-width: 361px;
+    }
+
+    .sidebar__navigation{
+        position: fixed;
+        left: 8px;
+        right: 55vw;
+        top: 8px;
+        bottom: 79vh;
+        height: auto;
+        max-width: 361px;
+    }
+
+    .playlist__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+        overflow-y:auto;
+        height: 67vh;    
+    }
+
+
+    .premium-span__content button{
+        padding: 5px 32px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .sidebar{
+        max-width: 361px;
+        height: auto;
+    }
+
+    
+
+    .main-content{
+        position: fixed;
+        right: 8px;
+        top: 8px;
+        bottom: 82px;
+        left: 377px;
+        width: auto;
+        height: auto;
+    }
+
+    .library{
+        position: fixed;
+        right: 55vw;
+        left: 8px;
+        top: 21vh;
+        bottom: 82px;
+        height: auto;
+        max-width: 361px;
+    }
+
+    .sidebar__navigation{
+        position: fixed;
+        left: 8px;
+        right: 55vw;
+        top: 8px;
+        bottom: 79vh;
+        height: auto;
+        max-width: 361px;
+    }
+
+    .playlist__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 25px;
+        overflow-y:auto;
+        height: 65vh;    
+    }
+
+    
+
+}
+
+/* VERTICAL */
+
+@media screen and (max-height: 600px) {
+    
+    .sidebar__menu .search{
+        display: none;
+    }
+
+    .playlist__content{
+        max-height: 60vh;
+        min-height: 20vh;
+    }
+}

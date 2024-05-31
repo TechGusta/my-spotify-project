@@ -1,0 +1,20 @@
+:root{
+
+    /* COLOR BACKGROUND */
+    --background-base: #121212;
+    --background-section: #242424;
+
+
+    /* COLOR MAIN TEXT*/
+    --text-color-nav: #b3b3b3;
+    --text-color-grey: #a7a7a7;
+    --text-color-white: #fff;
+
+    /* FONTS */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    --bg-icon: #131313;
+    --bg-top-bar: #61616142;
+    --grid-gap: 24px;
+    --column-count: 5;
+}

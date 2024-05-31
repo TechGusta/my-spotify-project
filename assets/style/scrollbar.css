@@ -1,0 +1,22 @@
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+/* Adicionando scrollbar para navegadores WebKit (como Chrome/Safari) */
+
+/* Estilo da alça (thumb) da scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,100%,.3);
+    opacity: .80;
+}
+
+/* Estilo quando a scrollbar está sendo arrastada */
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-color-grey); /* Cor da alça quando hover */
+}
+
+/* Estilo da pista (track) da scrollbar */
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Cor da pista */
+     /* Adicionando sombra dentro da pista */
+}

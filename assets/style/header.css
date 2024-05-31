@@ -1,0 +1,128 @@
+.main-content{
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    left: 24.6vw;
+    width: auto;
+    height: auto;
+    background-color: var(--background-base);
+    border-radius: 10px;
+}
+
+.main-content header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 16px;
+    border-radius: 10px 10px 0 0;
+    height: 37px;
+}
+
+.header__search{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.arrow__buttons{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;    
+}
+
+.arrow__buttons button{
+    background-color: rgba(0,0,0,.7);
+    
+    border: none;
+    border-radius: 50%;
+    padding: 3px 5px 2px 4px;
+}
+
+.arrow__buttons .arrow-left{
+    cursor: pointer;
+}
+
+.arrow__buttons .arrow-right{
+    cursor:not-allowed;
+}
+
+
+.header__input{
+    display:flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 30px;
+    border: none;
+    background-color: var(--background-section);
+    padding: 15px 20px 15px 12px;
+    border-radius: 20px;
+}
+
+
+.header__input img{
+    width: 16px;
+}
+
+.header__input input{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    padding-right: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+}
+
+.header__login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.header__login span{
+    font-weight: 600;
+}
+
+.header__login .subscribe{
+    background-color: transparent;
+    border: none;
+    color: var(--text-color-nav);
+    font-size: 16px;
+    padding: 8px 32px 8px 8px;
+    cursor: pointer;
+}
+
+.header__login .subscribe:hover{
+    color: #fff;
+    font-size: 16.2px;
+    font-weight: 700;
+}
+
+.header__login .login{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 11px 32px;
+    cursor: pointer;
+}
+
+.header__login .login:hover{
+    padding: 14px 35px;
+    margin-left: -3px;
+    margin-right: -3px;
+    font-weight: 700;
+}
